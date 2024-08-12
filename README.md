@@ -36,15 +36,52 @@ This project implements an advanced multi-sensor system for monitoring refrigera
 - Access the Grafana dashboard for real-time monitoring and analysis.
 - Adjust transmission intervals and sensor configurations as needed for your specific use case.
 
-## Data Security
-- Data transmission is encrypted.
-- Implement appropriate security measures for your cloud server and database.
+## Data Analysis
 
-## Contributing
-We welcome contributions to this project. Please read our contributing guidelines (link) before submitting pull requests.
+This multi-sensor refrigerator monitoring system provides rich datasets for in-depth analysis of refrigerator performance and environmental conditions. Here are key insights derived from the data:
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+![Scaled Humidity and Light Cycle Duration Over Time](scaled_humidity_light_cycle.png)
+
+![Temperature Variation and Light Cycle Duration Over Time](temperature_light_cycle.png)
+
+### 1. Temperature Variation
+
+- The system monitors temperature at three different locations (temperature_1, temperature_2, temperature_3).
+- Temperature ranges observed: 0°C to 16°C across all sensors.
+- Temperature_2 consistently shows higher readings, possibly indicating its proximity to a heat source or less efficient cooling area.
+- Daily temperature fluctuations are evident, likely correlating with door openings and ambient room temperature changes.
+
+### 2. Humidity Patterns
+
+![Humidity Heatmap for the Week](humidity_heatmap_week.png)
+
+- Humidity levels range from approximately 50% to 90%.
+- The heatmap reveals consistent high humidity (red areas) interspersed with periods of lower humidity (blue areas).
+- Sudden drops in humidity may indicate door openings or the introduction of new items into the refrigerator.
+
+### 3. Light Cycle Duration
+
+- Light cycle data provides insights into refrigerator usage patterns.
+- Short, sporadic light cycles (visible as orange spikes in Images 1 and 2) indicate brief door openings.
+- Longer light cycles may suggest extended door openings or maintenance activities.
+
+### 4. Correlations
+
+- Temperature and humidity show an inverse relationship – as temperature increases, humidity tends to decrease.
+- Light cycles often correlate with temporary increases in temperature and decreases in humidity, confirming the impact of door openings on the internal environment.
+
+### 5. Time-based Patterns
+
+- The data spans from July 26 to August 1, allowing for weekly pattern analysis.
+- Daily rhythms are observable, with more frequent door openings (light cycles) during daytime hours.
+
+### 6. Sensor Comparison
+![Temperature Heatmap for the Week](temperature_heatmap_week.png)
+
+- Temperature_3 consistently shows the lowest readings, suggesting it might be placed in the coldest part of the refrigerator.
+- The difference between temperature sensors helps identify temperature gradients within the refrigerator, useful for optimal food storage placement.
+
+This analysis provides valuable insights into refrigerator performance, usage patterns, and potential areas for energy efficiency improvements. The multi-sensor approach allows for a comprehensive understanding of the refrigerator's internal environment and its responses to external factors.
 
 ## Acknowledgments
 - Texas Instruments for the HDC1080 sensor
