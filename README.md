@@ -1,5 +1,5 @@
 # OCTOPUS
-##Multi-sensor-refrigerator-parameter-monitoring-system
+## Multi-sensor-refrigerator-parameter-monitoring-system
 
 ## Overview
 This project implements an advanced multi-sensor system for monitoring refrigerator conditions using IoT technology. It employs HDC1080 temperature and humidity sensors, LoRaWAN communication, and cloud-based data processing and visualization.
