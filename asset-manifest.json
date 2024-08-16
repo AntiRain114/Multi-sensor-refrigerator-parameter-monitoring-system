@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Octopus/static/css/main.a8383adc.css",
-    "main.js": "/Octopus/static/js/main.24c388d3.js",
-    "index.html": "/Octopus/index.html",
-    "main.a8383adc.css.map": "/Octopus/static/css/main.a8383adc.css.map",
-    "main.24c388d3.js.map": "/Octopus/static/js/main.24c388d3.js.map"
+    "main.css": "./static/css/main.a8383adc.css",
+    "main.js": "./static/js/main.24c388d3.js",
+    "index.html": "./index.html",
+    "main.a8383adc.css.map": "./static/css/main.a8383adc.css.map",
+    "main.24c388d3.js.map": "./static/js/main.24c388d3.js.map"
   },
   "entrypoints": [
     "static/css/main.a8383adc.css",
