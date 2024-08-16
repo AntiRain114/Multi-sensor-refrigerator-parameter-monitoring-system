@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Octopus/static/css/main.a8383adc.css",
+    "main.js": "/Octopus/static/js/main.ca7aa966.js",
+    "index.html": "/Octopus/index.html",
+    "main.a8383adc.css.map": "/Octopus/static/css/main.a8383adc.css.map",
+    "main.ca7aa966.js.map": "/Octopus/static/js/main.ca7aa966.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8383adc.css",
+    "static/js/main.ca7aa966.js"
+  ]
+}
