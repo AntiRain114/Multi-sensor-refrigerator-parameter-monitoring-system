@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const API_URL = 'http://43.157.46.171:3001/api/sensor-data';
+const API_URL = 'https://43.157.46.171:3001/api/sensor-data';
 
 const Dashboard = () => {
   const [data, setData] = useState([]);
