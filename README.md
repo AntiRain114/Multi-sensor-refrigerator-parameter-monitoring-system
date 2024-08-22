@@ -27,11 +27,11 @@ This project implements an advanced multi-sensor system for monitoring refrigera
 
 ## Installation
 1. Set up the hardware components in the refrigerator according to the 3D grid pattern specified in the methodology.
-2. Configure the Arduino MKR WAN 1310 with the provided code (link to code file).
+2. Configure the Arduino MKR WAN 1310 with the provided code in Arduino file folder.
 3. Set up a TTN account and configure your device.
-4. Deploy the Node.js script on your cloud server (link to script).
-5. Install and configure InfluxDB (instructions).
-6. Set up Grafana and import the provided dashboard (link to dashboard configuration).
+4. Deploy the Node.js script in Node file folder on your server.
+5. Install and configure InfluxDB.
+6. Set up Grafana.
 
 ## Usage
 - The system automatically collects and transmits data at optimized intervals.
